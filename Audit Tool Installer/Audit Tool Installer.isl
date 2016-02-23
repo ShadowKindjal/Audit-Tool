@@ -225,7 +225,6 @@
 	<table name="AppSearch">
 		<col key="yes" def="s72">Property</col>
 		<col key="yes" def="s72">Signature_</col>
-		<row><td>MSOFFICE2010</td><td>OFFICE2010</td></row>
 	</table>
 
 	<table name="BBControl">
@@ -2633,7 +2632,6 @@
 		<row><td>COMPANY_NAME</td><td>1033</td><td>LabCorp</td><td>0</td><td/><td>-1457216594</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-1457218642</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-1457218642</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_MSOFFICE2010</td><td>1033</td><td>Microsoft Office 2010 or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-1457215121</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>-1457218642</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-1457218642</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-1457218642</td></row>
@@ -4037,7 +4035,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 	<table name="LaunchCondition">
 		<col key="yes" def="s255">Condition</col>
 		<col def="l255">Description</col>
-		<row><td>MSOFFICE2010</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_MSOFFICE2010##</td></row>
 	</table>
 
 	<table name="ListBox">
@@ -4366,7 +4363,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;MSOFFICE2010</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
 		<row><td>UpgradeCode</td><td>{E2D4E46E-141E-4926-BCAB-2107E849219A}</td><td/></row>
@@ -4411,7 +4408,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Key</col>
 		<col def="S255">Name</col>
 		<col def="I2">Type</col>
-		<row><td>OFFICE2010</td><td>2</td><td>SOFTWARE\Microsoft\Office\14.0\Common\InstallRoot</td><td>Path</td><td>2</td></row>
 	</table>
 
 	<table name="Registry">

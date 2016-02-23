@@ -217,9 +217,39 @@
   -->
   <ItemGroup>
     <AppDesigner Include="My Project\" />
+    <Compile Include="AddItem.Designer.vb">
+      <DependentUpon>AddItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditAnalyzer.Designer.vb">
+      <DependentUpon>AuditAnalyzer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AuditAnalyzer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Branch Code Manager.Designer.vb">
+      <DependentUpon>Branch Code Manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Branch Code Manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.vb">
+      <DependentUpon>Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ThisAddIn.vb">
       <SubType>Code</SubType>
     </Compile>
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.vb</DependentUpon>
+    </EmbeddedResource>
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.vb</DependentUpon>
     </None>
@@ -227,6 +257,12 @@
       <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="AuditAnalyzer.resx">
+      <DependentUpon>AuditAnalyzer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branch Code Manager.resx">
+      <DependentUpon>Branch Code Manager.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
