@@ -45,6 +45,7 @@
         Me.Group1 = Me.Factory.CreateRibbonGroup
         Me.Report = Me.Factory.CreateRibbonButton
         Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Button2 = Me.Factory.CreateRibbonButton
         Me.Tab1.SuspendLayout()
         Me.Group1.SuspendLayout()
         Me.SuspendLayout()
@@ -60,6 +61,7 @@
         '
         Me.Group1.Items.Add(Me.Report)
         Me.Group1.Items.Add(Me.Button1)
+        Me.Group1.Items.Add(Me.Button2)
         Me.Group1.Label = "Audit Analyzer"
         Me.Group1.Name = "Group1"
         '
@@ -76,6 +78,13 @@
         Me.Button1.Label = "Branch Manager"
         Me.Button1.Name = "Button1"
         Me.Button1.ShowImage = True
+        '
+        'Button2
+        '
+        Me.Button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button2.Label = "Install Font"
+        Me.Button2.Name = "Button2"
+        Me.Button2.ShowImage = True
         '
         'AuditAnalyzer
         '
@@ -94,6 +103,7 @@
     Friend WithEvents Group1 As Microsoft.Office.Tools.Ribbon.RibbonGroup
     Friend WithEvents Report As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents Button1 As Microsoft.Office.Tools.Ribbon.RibbonButton
+    Friend WithEvents Button2 As Microsoft.Office.Tools.Ribbon.RibbonButton
 End Class
 
 Partial Class ThisRibbonCollection
